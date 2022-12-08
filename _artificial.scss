@@ -1,0 +1,108 @@
+$text-next-font-weight: 600;
+$text-next-font-size: 18px;
+$text-next-color: #3A68B8;
+$text-artificial-font-weight: 800;
+$text-artificial-font-size: 55px;
+$text-artificial-line-height: 130%;
+$text-artificial-color: #fff;
+$text-artificial-width: 604px;
+$dsc-text-artificial-font-weight: 600;
+$dsc-text-artificial-font-size: 18px;
+$dsc-text-artificial-line-height: 160%;
+$dsc-text-artificial-color: #ccc;
+$dsc-text-artificial-margin-top: 40px;
+$dsc-text-artificial-width: 558px;
+
+$button-watch-txt-tb: 0;
+$button-watch-txt-rl: 30px;
+
+$button-get-bc: #3A68B8;
+$button-get-radius: 5px;
+$button-get-margin-right: 20px;
+$button-watch-bc: #3A68B8;
+$button-watch-radius: 5px;
+$button-watch-font-weight: 600;
+$button-watch-font-size: 20px;
+$button-watch-color: #fff;
+$button-watch-between-arrow: 10px;
+$button-get-padding-ub: 15px;
+$button-get-padding-lr: 30px;
+$button-get-font-weight: 600;
+$button-get-font-size: 20px;
+$button-get-color: #fff;
+
+.next {
+    font-weight: $text-next-font-weight;
+    font-size: $text-next-font-size;
+    line-height: 160%;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: $text-next-color;
+}
+
+.main-headding {
+    font-weight: $text-artificial-font-weight;
+    font-size: $text-artificial-font-size;
+    line-height: $text-artificial-line-height;
+    color: $text-artificial-color;
+    font-family: 'Open Sans', sans-serif;
+    width: $text-artificial-width;
+}
+
+
+.main-dsc {
+    font-weight: $dsc-text-artificial-font-weight;
+    font-size: $dsc-text-artificial-font-size;
+    line-height: $dsc-text-artificial-line-height;
+    color: $dsc-text-artificial-color;
+    margin-top: $dsc-text-artificial-margin-top;
+    width: $dsc-text-artificial-width;
+    margin-bottom:$dsc-text-artificial-margin-top + 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.get {
+    background-color: $button-get-bc;
+    border-radius: $button-get-radius;
+    margin-right: $button-get-margin-right;
+}
+
+.button-txt-flex {
+    display: flex;
+    align-items: center;
+    padding: $button-watch-txt-tb $button-watch-txt-rl;
+}
+
+.watch {
+    background-color: $button-watch-bc;
+    border-radius: $button-watch-radius;
+    display: flex;
+    align-items: center;
+}
+
+.watch-txt {
+    font-weight: $button-watch-font-weight;
+    font-size: $button-watch-font-size;
+    font-family: 'Open Sans', sans-serif;
+    color: $button-watch-color;
+    margin-left: $button-watch-between-arrow
+}
+
+.button-flex {
+    display: flex;
+}
+
+.button-txt {
+    padding: $button-get-padding-ub $button-get-padding-lr;
+    font-weight: $button-get-font-weight;
+    font-size: $button-get-font-size;
+    font-family: 'Open Sans', sans-serif;
+    color: $button-get-color;
+    display: flex;
+    align-items: center;
+}
+
+.get:hover,
+.watch:hover {
+    outline: 4px solid #fff;
+}

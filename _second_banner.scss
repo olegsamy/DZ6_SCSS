@@ -1,0 +1,56 @@
+$banner_second-what-margin-top: 243px;
+
+$banner_second-what-width: 548px;
+$maintext-what-banner_second-font-weight: 700;
+$maintext-what-banner_second-font-size: 40px;
+$maintext-what-banner_second-line-height: 130%;
+$maintext-what-banner_second-color: #fff;
+$maintext-what-banner_second-padding-top: 0px;
+$maintext-what-banner_second-padding-bottom: 40px;
+$dsc-what-banner_second-font-weight: 600;
+$dsc-what-banner_second-font-size: 16px;
+$dsc-what-banner_second-line-height: 26px;
+$dsc-what-banner_second-color: #fff;
+$dsc-what-banner_second-opacity: 0.7;
+$dsc-what-banner_second-padding-bottom: 20px;
+$dsc-what-banner_second-padding-right: 113px;
+$dsc-what-banner_second-width: 460;
+$pic-banner_second-what-width: 573px;
+$pic-banner_second-what-height: 470px;
+
+.banner_second {
+ @include bannermixin(243px, 221px);
+}
+
+
+.bannertxt-sec {
+    width: $banner_second-what-width;
+}
+
+.banner-heading-sec {
+    font-family: 'Open Sans';
+    font-weight: $maintext-what-banner_second-font-weight;
+    font-size: $maintext-what-banner_second-font-size;
+    line-height: $maintext-what-banner_second-line-height;
+    color: $maintext-what-banner_second-color;
+    padding-top: $maintext-what-banner_second-padding-top;
+    padding-bottom: $maintext-what-banner_second-padding-bottom;
+}
+
+.banner-dsc-sec {
+    font-family: 'Open Sans';
+    font-weight: $dsc-what-banner_second-font-weight;
+    font-size: $dsc-what-banner_second-font-size;
+    line-height: $dsc-what-banner_second-line-height;
+    color: $dsc-what-banner_second-color;
+    opacity: $dsc-what-banner_second-opacity;
+    padding-bottom: $dsc-what-banner_second-padding-bottom;
+    padding-right: $dsc-what-banner_second-padding-right;
+    width: $dsc-what-banner_second-width;
+}
+
+.banner-pic {
+    width: $pic-banner_second-what-width;
+    height: $pic-banner_second-what-height;
+}
+

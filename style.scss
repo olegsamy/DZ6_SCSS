@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+@mixin bannermixin ($mt, $mb) {
+    margin-top: $mt;
+    margin-bottom: $mb;
+}
+
+@import "cite";
+@import "hider";
+@import "artificial";
+@import "footer_first";
+@import "banner_apply";
+@import "items";
+@import "second_banner";
+@import "footer";
+
+body {
+    background-color: $cite-bc;
+}
+
+.header {
+    background-color: $header-bc;
+}
+
+.footer_first {
+    border-color: $footer_first-bc;
+}
+
+.container {
+    margin: 0 auto;
+    width: $cite-width;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.robotoextend {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}

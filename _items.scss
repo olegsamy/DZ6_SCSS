@@ -1,0 +1,65 @@
+$small-item-adv-width: 362px;
+$small-item-adv-padding: 30px;
+$small-item-adv-bc: #132035;
+$small-item-adv-border-radius: 10px;
+$small-item-adv-box-sizing: border-box;
+$maintext-adv-font-weight: 700;
+$maintext-adv-font-size: 25px;
+$maintext-adv-line-height: 31px;
+$maintext-adv-color: #fff;
+$maintext-adv-opacity: 0.7;
+
+$maintext-adv-margin-tb: 30px;
+$maintext-adv-margin-rl: 0;
+
+$down-small-item-margin-top: 30px;
+$big-item-adv-padding: 30px;
+$big-item-adv-bc: #132035;
+$big-item-adv-border-radius: 10px;
+$big-item-adv-box-sizing: border-box;
+$big-item-adv-width: 755px;
+$big-item-adv-margin-top: 30px;
+$img-big-item-width: 306px;
+$section-adv-items-margin-bottom: 200px;
+
+.adv-item {
+    width: $small-item-adv-width;
+    padding: $small-item-adv-padding;
+    text-align: center;
+    background-color: $small-item-adv-bc;
+    border-radius: $small-item-adv-border-radius;
+    box-sizing: $small-item-adv-box-sizing;
+}
+
+.adv-heading {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: $maintext-adv-font-weight;
+    font-size: $maintext-adv-font-size;
+    line-height: $maintext-adv-line-height;
+    color: $maintext-adv-color;
+    opacity: $maintext-adv-opacity;
+    margin: $maintext-adv-margin-tb $maintext-adv-margin-rl;
+}
+
+.down {
+    margin-top: $down-small-item-margin-top;
+}
+
+.adv-left {
+    padding: $big-item-adv-padding;
+    text-align: center;
+    background-color: $big-item-adv-bc;
+    border-radius: $big-item-adv-border-radius;
+    box-sizing: $big-item-adv-box-sizing;
+    width: $big-item-adv-width;
+    margin-top: $big-item-adv-margin-top;
+}
+
+.img-big {
+    width: $img-big-item-width;
+}
+
+.advantages {
+    margin-bottom: $section-adv-items-margin-bottom;
+}

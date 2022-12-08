@@ -1,0 +1,48 @@
+$banner-txt-apply-margin-top: 157px;
+
+$banner-txt-apply-width: 485px;
+$txt-apply-font-width: 700;
+$txt-apply-font-size: 40px;
+$txt-apply-line-height: 52px;
+$txt-apply-color: #fff;
+$txt-apply-margin-top: 120px;
+$dsc-text-apply-font-weight: 600;
+$dsc-text-apply-font-size: 16px;
+$dsc-text-apply-line-height: 26px;
+$dsc-text-apply-color: #fff;
+$dsc-text-apply-opacity: 0.7;
+$dsc-text-apply-margin-top: 30px;
+$button-learn-margin-top: 50px;
+
+.banner {
+    @include bannermixin(157px, 264px);
+}
+
+
+.banner-txt {
+    width: $banner-txt-apply-width;
+
+}
+
+.banner-heading {
+    font-family: 'Open Sans';
+    font-weight: $txt-apply-font-width;
+    font-size: $txt-apply-font-size;
+    line-height: $txt-apply-line-height;
+    color: $txt-apply-color;
+    margin-top: $txt-apply-margin-top;
+}
+
+.banner-dsc {
+    font-family: 'Open Sans';
+    font-weight: $dsc-text-apply-font-weight;
+    font-size: $dsc-text-apply-font-size;
+    line-height: $dsc-text-apply-line-height;
+    color: $dsc-text-apply-color;
+    opacity: $dsc-text-apply-opacity;
+    margin-top: $dsc-text-apply-margin-top;
+}
+
+.banner-button {
+    margin-top: $button-learn-margin-top;
+}

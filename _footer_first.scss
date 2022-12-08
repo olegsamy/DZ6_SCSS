@@ -1,0 +1,16 @@
+$footer_first-margin-top: 200px;
+$footer_first-bc: #09111F;
+$footer_first-padding-bottom: 107px;
+$footer_first-padding-top: 33px;
+
+.footer_first {
+    margin-top: $footer_first-margin-top;
+    background-color: $footer_first-bc;
+    padding-bottom: $footer_first-padding-bottom;
+    padding-top: $footer_first-padding-top;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
